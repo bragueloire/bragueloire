@@ -168,7 +168,7 @@ def hero():
     w1, b1 = button(x0, by, "Hablemos de tu proyecto  →")
     _, b2 = button(x0 + w1 + 14, by, "Ver soluciones", primary=False)
 
-    # hub: DF al centro conectado a los servicios (sin foto: GitHub ya muestra el avatar)
+    # hub: destello al centro conectado a los servicios (sin foto: GitHub ya muestra el avatar)
     px, py = 935, 285
     sats = [("Meta Ads", -90), ("E-commerce", -32), ("IA Flows", 28), ("Datos & GA4", 90),
             ("Desarrollo", 152), ("Animación", 212)]
@@ -193,7 +193,15 @@ def hero():
   <circle cx="112" cy="0" r="4" fill="#c084fc"/></g></g>
 <circle cx="{px}" cy="{py}" r="84" fill="{BG}" stroke="url(#gRing)" stroke-width="6"/>
 <circle cx="{px}" cy="{py}" r="84" fill="url(#dots)"/>
-{T(px, py + 22, "DF", "SG7", 64, "url(#gDF)", -3, "middle")}
+<g transform="translate({px},{py})">
+  <circle r="46" fill="#818cf8" opacity=".35" filter="url(#blur24)" style="animation:pulse 3s ease-in-out infinite"/>
+  <g style="animation:spin 30s linear infinite">
+    <path d="M0,-44 C4,-12 12,-4 44,0 C12,4 4,12 0,44 C-4,12 -12,4 -44,0 C-12,-4 -4,-12 0,-44Z" fill="url(#gDF)"/>
+  </g>
+  <g style="animation:spin 18s linear infinite reverse">
+    <path transform="rotate(45) scale(.42)" d="M0,-44 C4,-12 12,-4 44,0 C12,4 4,12 0,44 C-4,12 -12,4 -44,0 C-12,-4 -4,-12 0,-44Z" fill="#fff" opacity=".85"/>
+  </g>
+</g>
 {''.join(chips)}"""
 
     # stats
@@ -213,7 +221,7 @@ def hero():
 </linearGradient>
 <linearGradient id="gRing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{V}"/><stop offset=".6" stop-color="{V2}"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
 <linearGradient id="gArc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c084fc" stop-opacity="0"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
-<linearGradient id="gDF" gradientUnits="userSpaceOnUse" x1="{px-40}" y1="0" x2="{px+40}" y2="0"><stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+<linearGradient id="gDF" gradientUnits="userSpaceOnUse" x1="-44" y1="-44" x2="44" y2="44"><stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
 <linearGradient id="veil" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{BG}" stop-opacity=".75"/><stop offset=".55" stop-color="{BG}" stop-opacity=".2"/><stop offset="1" stop-color="{BG}" stop-opacity="0"/></linearGradient>"""
 
     body = f"""
