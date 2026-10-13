@@ -75,6 +75,8 @@ def frame(H, body, fams, defs="", label="", extra_css=""):
 @keyframes drift{{0%{{transform:translate(0,0)}}100%{{transform:translate(-40px,18px)}}}}
 @keyframes pulse{{0%,100%{{opacity:.45}}50%{{opacity:.9}}}}
 @keyframes slide{{to{{transform:translateX(var(--d))}}}}
+@keyframes flow{{to{{stroke-dashoffset:-40}}}}
+@keyframes float{{from{{transform:translateY(-5px)}}to{{transform:translateY(5px)}}}}
 @media (prefers-reduced-motion:reduce){{*{{animation:none!important}}}}
 {extra_css}</style>
 <defs>
@@ -166,16 +168,33 @@ def hero():
     w1, b1 = button(x0, by, "Hablemos de tu proyecto  →")
     _, b2 = button(x0 + w1 + 14, by, "Ver soluciones", primary=False)
 
-    # foto con anillo
-    px, py, pr = 952, 290, 168
+    # hub: DF al centro conectado a los servicios (sin foto: GitHub ya muestra el avatar)
+    px, py = 935, 285
+    sats = [("Meta Ads", -90), ("E-commerce", -32), ("IA Flows", 28), ("Datos & GA4", 90),
+            ("Desarrollo", 152), ("Animación", 212)]
+    links, chips = [], []
+    for i, (label, ang) in enumerate(sats):
+        a = math.radians(ang)
+        sx, sy_ = px + 200 * math.cos(a), py + 168 * math.sin(a)
+        links.append(f'<line x1="{px}" y1="{py}" x2="{sx:.1f}" y2="{sy_:.1f}" stroke="#818cf8" stroke-opacity=".55" '
+                     f'stroke-width="1.5" stroke-dasharray="3 7" style="animation:flow {2 + i % 3 * .6:.1f}s linear infinite"/>')
+        cw_ = tw(label, "PJ6", 14) + 44
+        chips.append(f"""<g style="animation:float {5 + i % 3}s ease-in-out {i * .7:.1f}s infinite alternate">
+<rect x="{sx - cw_/2:.1f}" y="{sy_ - 20:.1f}" width="{cw_:.1f}" height="40" rx="20" fill="{CARD2}" stroke="rgba(129,140,248,.4)"/>
+<circle cx="{sx - cw_/2 + 20:.1f}" cy="{sy_:.1f}" r="4" fill="#818cf8" style="animation:tw {2.5 + i % 3}s ease-in-out infinite"/>
+{T(sx - cw_/2 + 32, sy_ + 5, label, "PJ6", 14, WHITE)}</g>""")
     photo = f"""
-<circle cx="{px}" cy="{py}" r="{pr+30}" fill="{V}" filter="url(#blur60)" style="animation:pulse 5s ease-in-out infinite"/>
-<circle cx="{px}" cy="{py}" r="{pr+30}" fill="none" stroke="#fff" stroke-opacity=".07"/>
-<g transform="translate({px},{py})"><g style="animation:spin 14s linear infinite">
-  <circle r="{pr+30}" fill="none" stroke="url(#gArc)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="190 1100"/>
-  <circle cx="{pr+30}" cy="0" r="4" fill="#c084fc"/></g></g>
-<circle cx="{px}" cy="{py}" r="{pr+9}" fill="{BG}" stroke="url(#gRing)" stroke-width="8"/>
-<image href="{b64(SRC / 'me.jpg', 'image/jpeg')}" x="{px-pr}" y="{py-pr}" width="{pr*2}" height="{pr*2}" preserveAspectRatio="xMidYMid slice" clip-path="url(#photoClip)"/>"""
+<circle cx="{px}" cy="{py}" r="130" fill="{V}" filter="url(#blur60)" style="animation:pulse 5s ease-in-out infinite"/>
+<ellipse cx="{px}" cy="{py}" rx="200" ry="168" fill="none" stroke="#fff" stroke-opacity=".08" stroke-dasharray="2 6"/>
+{''.join(links)}
+<circle cx="{px}" cy="{py}" r="112" fill="none" stroke="#fff" stroke-opacity=".08"/>
+<g transform="translate({px},{py})"><g style="animation:spin 12s linear infinite">
+  <circle r="112" fill="none" stroke="url(#gArc)" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="150 600"/>
+  <circle cx="112" cy="0" r="4" fill="#c084fc"/></g></g>
+<circle cx="{px}" cy="{py}" r="84" fill="{BG}" stroke="url(#gRing)" stroke-width="6"/>
+<circle cx="{px}" cy="{py}" r="84" fill="url(#dots)"/>
+{T(px, py + 22, "DF", "SG7", 64, "url(#gDF)", -3, "middle")}
+{''.join(chips)}"""
 
     # stats
     stats = [("12+ Años", "RESOLVIENDO EN DIGITAL"), ("Partner", "NO PROVEEDOR"),
@@ -194,7 +213,7 @@ def hero():
 </linearGradient>
 <linearGradient id="gRing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="{V}"/><stop offset=".6" stop-color="{V2}"/><stop offset="1" stop-color="#818cf8"/></linearGradient>
 <linearGradient id="gArc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#c084fc" stop-opacity="0"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
-<clipPath id="photoClip"><circle cx="{px}" cy="{py}" r="{pr}"/></clipPath>
+<linearGradient id="gDF" gradientUnits="userSpaceOnUse" x1="{px-40}" y1="0" x2="{px+40}" y2="0"><stop offset="0" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
 <linearGradient id="veil" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="{BG}" stop-opacity=".75"/><stop offset=".55" stop-color="{BG}" stop-opacity=".2"/><stop offset="1" stop-color="{BG}" stop-opacity="0"/></linearGradient>"""
 
     body = f"""
