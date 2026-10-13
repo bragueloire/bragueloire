@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="cbc-a w-full h-full transform scale-[1.3] opacity-80 group-hover:opacity-100 group-hover:scale-[1.4] transition-all duration-500" role="img" aria-label="Chat con IA en tu sitio web: el cliente pregunta, el asistente consulta tus documentos y responde al instante, 24/7">
+<defs>
+<radialGradient id="cbc-au"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".42"/><stop offset=".5" stop-color="#4425fe" stop-opacity=".14"/><stop offset="1" stop-color="#3b82f6" stop-opacity="0"/></radialGradient>
+<radialGradient id="cbc-hl"><stop offset="0" stop-color="#a78bfa" stop-opacity=".6"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+<linearGradient id="cbc-pn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16152a"/><stop offset="1" stop-color="#09090f"/></linearGradient>
+<linearGradient id="cbc-vi" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset=".55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#4425fe"/></linearGradient>
+<linearGradient id="cbc-dy" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#60a5fa"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+<linearGradient id="cbc-ng" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0f0b2e"/><stop offset="1" stop-color="#2e1065"/></linearGradient>
+<linearGradient id="cbc-sw" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#a78bfa" stop-opacity="0"/><stop offset=".5" stop-color="#c4b5fd"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient>
+<linearGradient id="cbc-ln" gradientUnits="userSpaceOnUse" x1="188" y1="0" x2="284" y2="0"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#60a5fa"/></linearGradient>
+<clipPath id="cbc-cc"><circle cx="652" cy="198" r="44"/></clipPath>
+<clipPath id="cbc-dc"><path d="M118 182h46l24 24v76a14 14 0 0 1-14 14h-56a14 14 0 0 1-14-14v-86a14 14 0 0 1 14-14z"/></clipPath>
+</defs>
+<style>
+.cbc-a *{transform-box:fill-box;transform-origin:center}
+.cbc-a .cbc-cy{transform-box:view-box;transform-origin:652px 288px;animation:cbc-cy 10s cubic-bezier(.65,0,.35,1) infinite}
+.cbc-au{opacity:.75;transition:opacity .5s;animation:cbc-br 6s ease-in-out infinite}
+.group:hover .cbc-au{opacity:1}
+.cbc-r1{animation:cbc-spin 48s linear infinite}
+.cbc-du{opacity:0;animation:cbc-du var(--t) linear var(--o) infinite}
+.cbc-fl{animation:cbc-fl 6s ease-in-out infinite}
+.cbc-q{opacity:0;transform-origin:100% 100%;animation:cbc-q 10s infinite}
+.cbc-ty{opacity:0;transform-origin:0 100%;animation:cbc-ty 10s infinite}
+.cbc-dt{animation:cbc-dt 1s ease-in-out infinite}
+.cbc-an{opacity:0;transform-origin:0 0;animation:cbc-an 10s infinite}
+.cbc-gr{transform:scaleX(0);transform-origin:0 50%;animation:cbc-gr 10s cubic-bezier(.2,.8,.3,1) infinite}
+.cbc-cp{opacity:0;animation:cbc-cp 10s infinite}
+.cbc-sb{animation:cbc-sb 10s infinite}
+.cbc-dl{opacity:0;animation:cbc-dl 10s infinite}
+.cbc-db{animation:cbc-db 10s infinite}
+.cbc-sc{opacity:0;animation:cbc-sc 10s linear infinite}
+.cbc-l{stroke-dasharray:100 100;stroke-dashoffset:100;animation:cbc-l 10s cubic-bezier(.5,0,.4,1) infinite}
+.cbc-pk{stroke-dasharray:.01 199.99;opacity:0;animation:cbc-pk 10s cubic-bezier(.5,0,.4,1) infinite}
+.cbc-nt{opacity:0;animation:cbc-nt 10s cubic-bezier(.65,0,.35,1) infinite}
+.cbc-av{opacity:0;animation:cbc-av 10s infinite}
+@keyframes cbc-spin{to{transform:rotate(360deg)}}
+@keyframes cbc-br{0%,100%{transform:scale(.94)}50%{transform:scale(1.05)}}
+@keyframes cbc-fl{0%,100%{transform:translateY(3px)}50%{transform:translateY(-4px)}}
+@keyframes cbc-du{0%{transform:translateY(0);opacity:0}25%,75%{opacity:var(--a)}100%{transform:translateY(-46px);opacity:0}}
+@keyframes cbc-cy{0%,38%{transform:none}50%,88%{transform:rotate(180deg)}100%{transform:rotate(360deg)}}
+@keyframes cbc-nt{0%,38%{opacity:0}50%,88%{opacity:1}100%{opacity:0}}
+@keyframes cbc-q{0%,3%{opacity:0;transform:translateY(14px) scale(.8)}6.5%{opacity:1;transform:translateY(-2px) scale(1.04);animation-timing-function:ease-out}8.5%,86%{opacity:1;transform:none}91%,100%{opacity:0;transform:translateY(-10px)}}
+@keyframes cbc-ty{0%,11%{opacity:0;transform:scale(.5)}13.5%{opacity:1;transform:scale(1.06)}15%,33%{opacity:1;transform:none}35.5%,100%{opacity:0;transform:scale(.8)}}
+@keyframes cbc-dt{0%,55%,100%{transform:none}25%{transform:translateY(-9px)}}
+@keyframes cbc-an{0%,34.5%{opacity:0;transform:translateY(10px) scale(.7)}38%{opacity:1;transform:scale(1.03);animation-timing-function:ease-out}40%,86%{opacity:1;transform:none}91%,100%{opacity:0;transform:translateY(-10px)}}
+@keyframes cbc-gr{0%,38%{transform:scaleX(0)}44%,100%{transform:scaleX(1)}}
+@keyframes cbc-cp{0%,46%{opacity:0;transform:scale(.4)}49%{opacity:1;transform:scale(1.12)}51%,100%{opacity:1;transform:none}}
+@keyframes cbc-sb{0%,1%{transform:none}3%{transform:scale(.82)}5.5%{transform:scale(1.1)}8%,100%{transform:none}}
+@keyframes cbc-dl{0%,13%{opacity:0}16%,36%{opacity:1}44%,84%{opacity:.55}90%,100%{opacity:0}}
+@keyframes cbc-db{0%,14%{transform:none}16.5%{transform:scale(1.08)}19.5%,100%{transform:none}}
+@keyframes cbc-sc{0%,15%{opacity:0;transform:translateY(0)}16.5%{opacity:1}30%{opacity:1;transform:translateY(80px)}31.5%,100%{opacity:0;transform:translateY(80px)}}
+@keyframes cbc-l{0%,16%{stroke-dashoffset:100;opacity:1;animation-timing-function:cubic-bezier(.5,0,.4,1)}24%,84%{stroke-dashoffset:0;opacity:1}89%{stroke-dashoffset:0;opacity:0}90%,100%{stroke-dashoffset:100;opacity:0}}
+@keyframes cbc-pk{0%,17%{stroke-dashoffset:0;opacity:0;animation-timing-function:cubic-bezier(.5,0,.4,1)}18.5%{opacity:1}26%{opacity:1}27.5%,100%{stroke-dashoffset:-100;opacity:0}}
+@keyframes cbc-av{0%,12%{opacity:0;transform:scale(1)}14%{opacity:.9}24%{opacity:0;transform:scale(1.9)}25%{opacity:0;transform:scale(1)}26%{opacity:.9}36%,100%{opacity:0;transform:scale(1.9)}}
+@media (prefers-reduced-motion:reduce){
+.cbc-a *,.cbc-a .cbc-cy{animation:none!important}
+.cbc-q,.cbc-an,.cbc-cp{opacity:1;transform:none}.cbc-gr{transform:none}
+.cbc-ty,.cbc-sc,.cbc-pk,.cbc-av{opacity:0}
+.cbc-dl{opacity:.7}.cbc-l{stroke-dashoffset:0}.cbc-au{opacity:.9}.cbc-du{opacity:.35}
+}
+</style>
+
+<circle class="cbc-au" cx="400" cy="250" r="250" fill="url(#cbc-au)"/>
+<circle class="cbc-r1" cx="400" cy="250" r="196" fill="none" stroke="#c4b5fd" stroke-opacity=".2" stroke-width="2.4" stroke-dasharray="2 14" stroke-linecap="round"/>
+<g fill="#fff">
+<circle class="cbc-du" style="--t:9s;--o:-2s;--a:.5" cx="210" cy="120" r="2.6"/>
+<circle class="cbc-du" style="--t:11s;--o:-7s;--a:.35" cx="180" cy="420" r="2"/>
+<circle class="cbc-du" style="--t:8s;--o:-4s;--a:.5" cx="590" cy="120" r="2.4"/>
+<circle class="cbc-du" style="--t:12s;--o:-1s;--a:.4" cx="610" cy="440" r="2.8"/>
+<circle class="cbc-du" style="--t:10s;--o:-6s;--a:.45" cx="90" cy="300" r="1.8"/>
+</g>
+
+<g fill="none" stroke-linecap="round">
+<path d="M190 239C236 239 238 253 284 253" stroke="#fff" stroke-opacity=".16" stroke-width="3" stroke-dasharray="2 9"/>
+<path class="cbc-l" pathLength="100" d="M190 239C236 239 238 253 284 253" stroke="url(#cbc-ln)" stroke-width="12" stroke-opacity=".2"/>
+<path class="cbc-l" pathLength="100" d="M190 239C236 239 238 253 284 253" stroke="url(#cbc-ln)" stroke-width="4.5"/>
+</g>
+
+<g class="cbc-db">
+<ellipse class="cbc-dl" cx="146" cy="239" rx="96" ry="100" fill="url(#cbc-hl)"/>
+<path d="M118 182h46l24 24v76a14 14 0 0 1-14 14h-56a14 14 0 0 1-14-14v-86a14 14 0 0 1 14-14z" fill="url(#cbc-pn)" stroke="#fff" stroke-opacity=".18" stroke-width="2.2"/>
+<g clip-path="url(#cbc-dc)"><rect class="cbc-sc" x="104" y="204" width="84" height="12" fill="url(#cbc-sw)"/></g>
+<path class="cbc-dl" d="M118 182h46l24 24v76a14 14 0 0 1-14 14h-56a14 14 0 0 1-14-14v-86a14 14 0 0 1 14-14z" fill="none" stroke="#a78bfa" stroke-width="3.2"/>
+<path d="M164 183v13a10 10 0 0 0 10 10h13" fill="none" stroke="#fff" stroke-opacity=".3" stroke-width="2.2"/>
+<g stroke-linecap="round" stroke-width="7" fill="none"><path d="M122 230h44" stroke="#c4b5fd"/><path d="M122 248h44M122 266h28" stroke="#fff" stroke-opacity=".5"/></g>
+</g>
+
+<g class="cbc-fl" style="animation-delay:-1.5s">
+<g clip-path="url(#cbc-cc)">
+<circle cx="652" cy="198" r="44" fill="url(#cbc-dy)"/>
+<circle class="cbc-nt" cx="652" cy="198" r="44" fill="url(#cbc-ng)"/>
+<g class="cbc-cy">
+<g><circle cx="652" cy="198" r="15" fill="#fef3c7"/><path d="M652 170v-6M652 232v-6M624 198h-6M686 198h-6M632 178l-4-4M676 222l-4-4M672 178l4-4M628 222l4-4" stroke="#fef3c7" stroke-width="4.5" stroke-linecap="round"/></g>
+<g><path d="M662 360.7A20 20 0 1 0 670 386.7A16 16 0 0 1 662 360.7z" fill="#ede9fe"/><circle cx="674" cy="364" r="2.8" fill="#fff"/><circle cx="630" cy="360" r="2" fill="#fff"/><circle cx="676" cy="398" r="2.2" fill="#fff"/></g>
+</g>
+</g>
+<circle cx="652" cy="198" r="44" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="2.2"/>
+<rect x="596" y="264" width="112" height="50" rx="25" fill="#0d0c1a" stroke="#a78bfa" stroke-opacity=".55" stroke-width="2.2"/>
+<text x="652" y="299" text-anchor="middle" font-family="'Space Grotesk','Plus Jakarta Sans',system-ui,sans-serif" font-weight="700" font-size="30" letter-spacing="-.5" fill="#fff">24/7</text>
+</g>
+
+<rect x="262" y="84" width="276" height="332" rx="30" fill="url(#cbc-pn)" stroke="#fff" stroke-opacity=".17" stroke-width="2"/>
+<path d="M262 148H538" stroke="#fff" stroke-opacity=".1" stroke-width="2"/>
+<circle class="cbc-av" cx="304" cy="116" r="21" fill="none" stroke="#a78bfa" stroke-width="3"/>
+<circle cx="304" cy="116" r="21" fill="url(#cbc-vi)"/>
+<path d="M304 102C306.5 112 308 113.5 318 116C308 118.5 306.5 120 304 130C301.5 120 300 118.5 290 116C300 113.5 301.5 112 304 102Z" fill="#fff"/>
+<rect x="336" y="103" width="88" height="11" rx="5.5" fill="#fff" fill-opacity=".88"/>
+<circle cx="340.5" cy="129" r="4.5" fill="#34d399"/><rect x="351" y="125" width="50" height="8" rx="4" fill="#fff" fill-opacity=".3"/>
+
+<g class="cbc-q"><path d="M402 168h94a18 18 0 0 1 18 18v12a16 16 0 0 1-16 16h-96a18 18 0 0 1-18-18v-10a18 18 0 0 1 18-18z" fill="url(#cbc-vi)"/><rect x="402" y="180" width="94" height="9" rx="4.5" fill="#fff" fill-opacity=".92"/><rect x="402" y="195" width="58" height="9" rx="4.5" fill="#fff" fill-opacity=".6"/></g>
+
+<g class="cbc-ty"><path d="M298 232h52a18 18 0 0 1 18 18v6a18 18 0 0 1-18 18h-52a14 14 0 0 1-14-14v-10a18 18 0 0 1 14-18z" fill="#1d1c33" stroke="#fff" stroke-opacity=".14" stroke-width="2"/>
+<g fill="#c4b5fd"><circle class="cbc-dt" cx="308" cy="253" r="6"/><circle class="cbc-dt" style="animation-delay:.15s" cx="326" cy="253" r="6"/><circle class="cbc-dt" style="animation-delay:.3s" cx="344" cy="253" r="6"/></g></g>
+
+<g class="cbc-an"><path d="M302 232h178a18 18 0 0 1 18 18v68a18 18 0 0 1-18 18h-178a18 18 0 0 1-18-18v-72a14 14 0 0 1 14-14z" fill="#1b1a30" stroke="#8b5cf6" stroke-opacity=".6" stroke-width="2.2"/>
+<rect class="cbc-gr" x="302" y="250" width="172" height="10" rx="5" fill="#fff" fill-opacity=".9"/>
+<rect class="cbc-gr" style="animation-delay:.2s" x="302" y="267" width="148" height="10" rx="5" fill="#fff" fill-opacity=".6"/>
+<rect class="cbc-gr" style="animation-delay:.4s" x="302" y="284" width="112" height="10" rx="5" fill="#fff" fill-opacity=".6"/>
+<g class="cbc-cp"><rect x="302" y="302" width="96" height="22" rx="11" fill="#8b5cf6" fill-opacity=".25" stroke="#a78bfa" stroke-width="2"/><path d="M314 307h7l4 4v8h-11z" fill="#c4b5fd"/><rect x="332" y="309.5" width="54" height="7" rx="3.5" fill="#ddd6fe"/></g>
+</g>
+
+<rect x="284" y="356" width="232" height="42" rx="21" fill="#fff" fill-opacity=".05" stroke="#fff" stroke-opacity=".13" stroke-width="2"/>
+<rect x="304" y="373" width="92" height="8" rx="4" fill="#fff" fill-opacity=".22"/>
+<g class="cbc-sb"><circle cx="495" cy="377" r="15" fill="url(#cbc-vi)"/><path d="M495 385v-15m-6 6 6-6 6 6" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+
+<g stroke-linecap="round" fill="none">
+<path class="cbc-pk" pathLength="100" d="M190 239C236 239 238 253 284 253" stroke="#c4b5fd" stroke-opacity=".4" stroke-width="22"/>
+<path class="cbc-pk" pathLength="100" d="M190 239C236 239 238 253 284 253" stroke="#f5f3ff" stroke-width="11"/>
+<path class="cbc-pk" style="animation-delay:.5s" pathLength="100" d="M190 239C236 239 238 253 284 253" stroke="#c4b5fd" stroke-opacity=".4" stroke-width="22"/>
+<path class="cbc-pk" style="animation-delay:.5s" pathLength="100" d="M190 239C236 239 238 253 284 253" stroke="#f5f3ff" stroke-width="11"/>
+</g>
+</svg>

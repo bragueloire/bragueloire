@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="lpc-a w-full h-full transform scale-[1.3] opacity-80 group-hover:opacity-100 group-hover:scale-[1.4] transition-all duration-500" role="img" aria-label="Un clic en un anuncio aterriza en una landing mobile que se arma bloque a bloque, el botón de acción late y la conversión salta hacia arriba">
+<defs>
+<linearGradient id="lpc-fr" gradientUnits="userSpaceOnUse" x1="0" y1="92" x2="0" y2="408"><stop offset="0" stop-color="#11121f"/><stop offset="1" stop-color="#07070d"/></linearGradient>
+<linearGradient id="lpc-hi" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2dd4bf"/><stop offset=".55" stop-color="#14b8a6"/><stop offset="1" stop-color="#4425fe"/></linearGradient>
+<linearGradient id="lpc-ct" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset="1" stop-color="#0d9488"/></linearGradient>
+<linearGradient id="lpc-br" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5eead4"/><stop offset=".5" stop-color="#14b8a6"/><stop offset="1" stop-color="#4425fe"/></linearGradient>
+<linearGradient id="lpc-bm" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#14b8a6" stop-opacity="0"/><stop offset=".7" stop-color="#5eead4" stop-opacity=".5"/><stop offset=".92" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<radialGradient id="lpc-au"><stop offset="0" stop-color="#14b8a6" stop-opacity=".36"/><stop offset=".5" stop-color="#4425fe" stop-opacity=".14"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+<radialGradient id="lpc-gw"><stop offset="0" stop-color="#2dd4bf" stop-opacity=".75"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></radialGradient>
+<radialGradient id="lpc-sh"><stop offset="0" stop-color="#14b8a6" stop-opacity=".45"/><stop offset="1" stop-color="#14b8a6" stop-opacity="0"/></radialGradient>
+<clipPath id="lpc-ci"><rect x="386" y="130" width="110" height="66" rx="10"/></clipPath>
+</defs>
+<style>
+.lpc-a *{transform-box:fill-box;transform-origin:center}
+.lpc-a .lpc-n{transform-box:view-box;transform-origin:0 0}
+.lpc-a .lpc-bo{transform-origin:50% 100%}
+.lpc-au{opacity:.75;transition:opacity .5s;animation:lpc-br 6s ease-in-out infinite}
+.group:hover .lpc-au{opacity:1}
+.lpc-r1{animation:lpc-spin 48s linear infinite}
+.lpc-du{opacity:0;animation:lpc-du var(--t) linear var(--o) infinite}
+.lpc-fl{animation:lpc-fl 6s ease-in-out infinite}
+.lpc-ad{animation:lpc-ad 12s infinite}
+.lpc-ab{opacity:0;animation:lpc-ab 12s infinite}
+.lpc-bx{opacity:0;animation:lpc-bx 12s cubic-bezier(.45,0,.4,1) infinite}
+.lpc-cn{stroke-dasharray:.1 12.9;animation:lpc-fw .6s linear infinite}
+.lpc-cw{animation:lpc-cw 12s infinite}
+.lpc-p{animation:lpc-p 12s infinite backwards}
+.lpc-pr{animation:lpc-pr 12s infinite}
+.lpc-cg{opacity:.4;animation:lpc-cg 12s infinite}
+.lpc-ps{opacity:0;animation:lpc-ps 12s infinite}
+.lpc-rp{opacity:0;animation:lpc-rp 12s cubic-bezier(.2,.7,.3,1) infinite}
+.lpc-cu{opacity:0;animation:lpc-cu 12s infinite}
+.lpc-bb{transform:scaleY(.9);animation:lpc-bb 12s infinite}
+.lpc-ba{transform:scaleY(.16);animation:lpc-ba 12s infinite}
+.lpc-up{animation:lpc-up 12s infinite}
+.lpc-bg{animation:lpc-bg 12s infinite}
+@keyframes lpc-spin{to{transform:rotate(360deg)}}
+@keyframes lpc-br{0%,100%{transform:scale(.94)}50%{transform:scale(1.05)}}
+@keyframes lpc-fl{0%,100%{transform:translateY(3px)}50%{transform:translateY(-5px)}}
+@keyframes lpc-du{0%{transform:translateY(0);opacity:0}25%,75%{opacity:var(--a)}100%{transform:translateY(-46px);opacity:0}}
+@keyframes lpc-fw{to{stroke-dashoffset:-13}}
+@keyframes lpc-ad{0%{opacity:0;transform:translateX(-30px)}5%,90%{opacity:1;transform:none}96%,100%{opacity:0;transform:translateX(-20px)}}
+@keyframes lpc-ab{0%,9.5%{opacity:0}10.5%{opacity:1}22%,100%{opacity:0}}
+@keyframes lpc-bx{0%,11.5%{opacity:0;transform:none}12.5%{opacity:1}19%{opacity:1;transform:translateX(74px)}21%,100%{opacity:0;transform:translateX(74px)}}
+@keyframes lpc-cw{0%,11%{opacity:0}15%,90%{opacity:1}95%,100%{opacity:0}}
+@keyframes lpc-p{0%,19%{opacity:0;transform:translateY(14px) scale(.86)}22%{opacity:1;transform:translateY(-3px) scale(1.03);animation-timing-function:ease-out}24%,90%{opacity:1;transform:none}94%,100%{opacity:0;transform:none}}
+@keyframes lpc-pr{0%,49.5%{transform:none}50.5%{transform:scale(.9)}53%{transform:scale(1.07)}56%,100%{transform:none}}
+@keyframes lpc-cg{0%,36%{opacity:.25}40%{opacity:.7}44%{opacity:.4}47%{opacity:.75}51%{opacity:1}64%,90%{opacity:.55}96%,100%{opacity:.25}}
+@keyframes lpc-ps{0%,37%{opacity:0;transform:scale(1)}38%{opacity:.8}43.5%{opacity:0;transform:scale(1.18,1.7)}44%{opacity:0;transform:scale(1)}44.5%{opacity:.8}50%,100%{opacity:0;transform:scale(1.18,1.7)}}
+@keyframes lpc-rp{0%,50.5%{opacity:0;transform:scale(.6)}51%{opacity:.9;transform:scale(.6)}60%,100%{opacity:0;transform:scale(3.6)}}
+@keyframes lpc-cu{0%,3%{opacity:0;transform:translate(300px,390px)}5%{opacity:1;animation-timing-function:cubic-bezier(.3,0,.2,1)}9%{transform:translate(234px,302px)}10%{transform:translate(234px,302px) scale(.8)}11.5%{transform:translate(234px,302px)}13%{opacity:1;transform:translate(234px,302px);animation-timing-function:ease-in}17%,40%{opacity:0;transform:translate(270px,350px)}42%{opacity:0;transform:translate(560px,440px)}44%{opacity:1;animation-timing-function:cubic-bezier(.3,0,.2,1)}49%{transform:translate(446px,368px)}50.5%{transform:translate(446px,368px) scale(.8)}52%{transform:translate(446px,368px)}55%{opacity:1;transform:translate(446px,368px);animation-timing-function:ease-in}59%,100%{opacity:0;transform:translate(490px,420px)}}
+@keyframes lpc-bb{0%{transform:scaleY(0)}6%,51.5%{transform:scaleY(.2);animation-timing-function:cubic-bezier(.2,.9,.3,1)}57%{transform:scaleY(.97)}60%{transform:scaleY(.87)}63%,90%{transform:scaleY(.9);animation-timing-function:ease-in}97%,100%{transform:scaleY(0)}}
+@keyframes lpc-ba{0%{transform:scaleY(0)}6%,90%{transform:scaleY(.16)}97%,100%{transform:scaleY(0)}}
+@keyframes lpc-up{0%,55%{opacity:0;transform:translateY(18px)}59%{opacity:1;transform:translateY(-5px)}61.5%,90%{opacity:1;transform:none}94%,100%{opacity:0;transform:translateY(-8px)}}
+@keyframes lpc-bg{0%,52%{opacity:0}58%,90%{opacity:1}96%,100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){
+.lpc-a *{animation:none!important}
+.lpc-ab,.lpc-bx,.lpc-ps,.lpc-rp,.lpc-cu{opacity:0}.lpc-cg{opacity:.7}.lpc-au{opacity:.9}.lpc-du{opacity:.35}
+}
+</style>
+
+<circle class="lpc-au" cx="400" cy="250" r="250" fill="url(#lpc-au)"/>
+<circle class="lpc-r1" cx="400" cy="250" r="196" fill="none" stroke="#5eead4" stroke-opacity=".18" stroke-width="2.4" stroke-dasharray="2 14" stroke-linecap="round"/>
+<g fill="#fff">
+<circle class="lpc-du" style="--t:9s;--o:-2s;--a:.5" cx="150" cy="140" r="2.6"/>
+<circle class="lpc-du" style="--t:11s;--o:-7s;--a:.35" cx="300" cy="440" r="2"/>
+<circle class="lpc-du" style="--t:8s;--o:-4s;--a:.5" cx="690" cy="250" r="2.4"/>
+<circle class="lpc-du" style="--t:12s;--o:-1s;--a:.4" cx="560" cy="452" r="2.8"/>
+<circle class="lpc-du" style="--t:10s;--o:-6s;--a:.45" cx="96" cy="300" r="1.6"/>
+</g>
+<g transform="translate(400 250) scale(1.06) translate(-400 -250)">
+<ellipse cx="400" cy="400" rx="260" ry="30" fill="url(#lpc-sh)"/>
+
+<g class="lpc-cw"><path class="lpc-cn" pathLength="100" d="M298 246H364" fill="none" stroke="#5eead4" stroke-width="6" stroke-linecap="round"/></g>
+
+<g class="lpc-ad"><g class="lpc-fl" style="animation-delay:-2s"><g transform="rotate(-6 229 245)">
+<rect x="168" y="160" width="122" height="170" rx="16" fill="#0f1020" stroke="#fff" stroke-opacity=".16" stroke-width="2"/>
+<rect x="178" y="170" width="102" height="70" rx="10" fill="url(#lpc-hi)"/>
+<circle cx="198" cy="190" r="9" fill="#fff" fill-opacity=".9"/>
+<path d="M178 240l30-28 20 16 18-14 34 26z" fill="#fff" fill-opacity=".22"/>
+<rect x="178" y="252" width="82" height="11" rx="5.5" fill="#fff" fill-opacity=".88"/>
+<rect x="178" y="270" width="56" height="8" rx="4" fill="#fff" fill-opacity=".3"/>
+<rect x="178" y="290" width="102" height="28" rx="14" fill="url(#lpc-ct)"/>
+<rect class="lpc-ab" x="174" y="286" width="110" height="36" rx="18" fill="none" stroke="#fff" stroke-width="2.4"/>
+<path d="M218 304h22m-7-7 7 7-7 7" fill="none" stroke="#04201c" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g></g></g>
+
+<rect x="366" y="92" width="150" height="316" rx="28" fill="url(#lpc-fr)" stroke="#fff" stroke-opacity=".2" stroke-width="2.4"/>
+<rect x="376" y="104" width="130" height="292" rx="20" fill="#07070d"/>
+<rect x="421" y="111" width="40" height="8" rx="4" fill="#fff" fill-opacity=".14"/>
+
+<rect class="lpc-bx" x="320" y="208" width="46" height="76" fill="url(#lpc-bm)"/>
+
+<g class="lpc-p" style="animation-delay:0s"><g clip-path="url(#lpc-ci)"><rect x="386" y="130" width="110" height="66" fill="url(#lpc-hi)"/><circle cx="408" cy="150" r="8" fill="#fff" fill-opacity=".9"/><path d="M386 198l30-28 22 18 18-14 40 24z" fill="#fff" fill-opacity=".22"/></g></g>
+<g class="lpc-p" style="animation-delay:.3s"><rect x="386" y="208" width="96" height="12" rx="6" fill="#fff" fill-opacity=".92"/></g>
+<g class="lpc-p" style="animation-delay:.45s"><rect x="386" y="228" width="70" height="8" rx="4" fill="#2dd4bf"/></g>
+<g fill="#fff" fill-opacity=".3">
+<g class="lpc-p" style="animation-delay:.7s"><circle cx="391" cy="254" r="4.5" fill="#2dd4bf" fill-opacity="1"/><rect x="402" y="250" width="64" height="8" rx="4"/></g>
+<g class="lpc-p" style="animation-delay:.85s"><circle cx="391" cy="271" r="4.5" fill="#2dd4bf" fill-opacity="1"/><rect x="402" y="267" width="54" height="8" rx="4"/></g>
+<g class="lpc-p" style="animation-delay:1s"><circle cx="391" cy="288" r="4.5" fill="#2dd4bf" fill-opacity="1"/><rect x="402" y="284" width="60" height="8" rx="4"/></g>
+</g>
+<g fill="#fff" fill-opacity=".06" stroke="#fff" stroke-opacity=".15" stroke-width="1.6">
+<g class="lpc-p" style="animation-delay:1.3s"><rect x="386" y="304" width="110" height="20" rx="7"/></g>
+<g class="lpc-p" style="animation-delay:1.45s"><rect x="386" y="330" width="110" height="20" rx="7"/></g>
+</g>
+<ellipse class="lpc-cg" cx="441" cy="372" rx="78" ry="30" fill="url(#lpc-gw)"/>
+<g class="lpc-p" style="animation-delay:1.8s"><g class="lpc-pr">
+<rect class="lpc-ps" x="386" y="358" width="110" height="28" rx="14" fill="none" stroke="#5eead4" stroke-width="2.4"/>
+<rect x="386" y="358" width="110" height="28" rx="14" fill="url(#lpc-ct)"/>
+<rect x="386.8" y="358.8" width="108.4" height="26.4" rx="13.2" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="1.6"/>
+<rect x="404" y="369" width="44" height="6" rx="3" fill="#04201c"/>
+<path d="M458 372h18m-6-6 6 6-6 6" fill="none" stroke="#04201c" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g></g>
+<circle class="lpc-rp" cx="446" cy="370" r="18" fill="none" stroke="#5eead4" stroke-width="3"/>
+<circle class="lpc-rp" style="animation-delay:.22s" cx="446" cy="370" r="18" fill="none" stroke="#a78bfa" stroke-width="2.4"/>
+<circle class="lpc-rp" style="animation-delay:-4.88s" cx="234" cy="302" r="14" fill="none" stroke="#5eead4" stroke-width="3"/>
+
+<ellipse class="lpc-bg" cx="615" cy="200" rx="50" ry="60" fill="url(#lpc-gw)"/>
+<g fill="#fff" fill-opacity=".06"><rect x="556" y="160" width="30" height="220" rx="10"/><rect x="600" y="160" width="30" height="220" rx="10"/></g>
+<rect class="lpc-ba lpc-bo" x="556" y="160" width="30" height="220" rx="10" fill="#fff" fill-opacity=".28"/>
+<rect class="lpc-bb lpc-bo" x="600" y="160" width="30" height="220" rx="10" fill="url(#lpc-br)"/>
+<path d="M546 388H640" stroke="#fff" stroke-opacity=".2" stroke-width="2.4" stroke-linecap="round"/>
+<path class="lpc-up" d="M615 166v-30m-12 12 12-12 12 12" fill="none" stroke="#5eead4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+
+<g class="lpc-cu lpc-n"><path d="M0 0v42l10.5-9.5 8 17.5 7.5-3.4-8-17.2H32.5z" fill="#fff" stroke="#030303" stroke-width="2.6" stroke-linejoin="round"/></g>
+</g>
+</svg>

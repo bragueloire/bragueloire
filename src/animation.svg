@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="amc-a w-full h-full transform scale-[1.3] opacity-80 group-hover:opacity-100 group-hover:scale-[1.4] transition-all duration-500" role="img" aria-label="Animación digital: una forma rebota con squash and stretch siguiendo una curva de easing y se transforma en un botón de play mientras la línea de tiempo recorre sus keyframes">
+<defs>
+<radialGradient id="amc-au"><stop offset="0" stop-color="#f97316" stop-opacity=".38"/><stop offset=".5" stop-color="#7c3aed" stop-opacity=".13"/><stop offset="1" stop-color="#4425fe" stop-opacity="0"/></radialGradient>
+<radialGradient id="amc-bl" cx=".36" cy=".32" r=".72"><stop offset="0" stop-color="#ffedd5"/><stop offset=".35" stop-color="#fb923c"/><stop offset="1" stop-color="#c2410c"/></radialGradient>
+<linearGradient id="amc-pg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fdba74"/><stop offset=".45" stop-color="#f97316"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+<linearGradient id="amc-tr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fb923c"/><stop offset=".6" stop-color="#f97316"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+<linearGradient id="amc-cv" gradientUnits="userSpaceOnUse" x1="476" y1="0" x2="598" y2="0"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#fb923c"/></linearGradient>
+<linearGradient id="amc-gd" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fdba74" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="amc-pn" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16121d"/><stop offset="1" stop-color="#09080d"/></linearGradient>
+<radialGradient id="amc-sh"><stop offset="0" stop-color="#f97316" stop-opacity=".55"/><stop offset="1" stop-color="#f97316" stop-opacity="0"/></radialGradient>
+<radialGradient id="amc-gw"><stop offset="0" stop-color="#fdba74" stop-opacity=".8"/><stop offset=".55" stop-color="#f97316" stop-opacity=".22"/><stop offset="1" stop-color="#f97316" stop-opacity="0"/></radialGradient>
+<clipPath id="amc-ck"><rect class="amc-pf" x="170" y="360" width="460" height="44"/></clipPath>
+</defs>
+<style>
+.amc-a *{transform-box:fill-box;transform-origin:center}
+.amc-a .amc-n{transform-box:view-box;transform-origin:0 0}
+.amc-a .amc-bs{transform-origin:50% 100%}
+.amc-a .amc-pf{transform-box:view-box;transform-origin:170px 0}
+.amc-au{opacity:.75;transition:opacity .5s;animation:amc-br 6s ease-in-out infinite}
+.group:hover .amc-au{opacity:1}
+.amc-r1{animation:amc-spin 48s linear infinite}
+.amc-du{opacity:0;animation:amc-du var(--t) linear var(--o) infinite}
+.amc-fl{animation:amc-fl 5s ease-in-out infinite}
+.amc-bx{animation:amc-bx 10s var(--g,0s) infinite}
+.amc-by{animation:amc-by 10s var(--g,0s) infinite}
+.amc-bs{animation:amc-bs 10s var(--g,0s) infinite}
+.amc-bo{opacity:0;animation:amc-bo 10s var(--g,0s) infinite}
+.amc-ss{animation:amc-ss 10s infinite}
+.amc-mp{opacity:0;animation:amc-mp 10s infinite}
+.amc-ip{opacity:0;animation:amc-ip 10s cubic-bezier(.2,.7,.3,1) infinite}
+.amc-pb{opacity:0;animation:amc-pb 10s infinite}
+.amc-pr{opacity:0;animation:amc-pr 10s cubic-bezier(.2,.7,.3,1) infinite}
+.amc-cv{stroke-dasharray:100 100;stroke-dashoffset:100;animation:amc-cv 10s infinite}
+.amc-dx{animation:amc-dx 10s infinite}
+.amc-dy{opacity:0;animation:amc-dy 10s infinite}
+.amc-pf{animation:amc-pf 10s linear infinite}
+.amc-po{animation:amc-po 10s linear infinite}
+.amc-ph{animation:amc-ph 10s linear infinite}
+@keyframes amc-spin{to{transform:rotate(360deg)}}
+@keyframes amc-br{0%,100%{transform:scale(.94)}50%{transform:scale(1.05)}}
+@keyframes amc-fl{0%,100%{transform:translateY(3px)}50%{transform:translateY(-5px)}}
+@keyframes amc-du{0%{transform:translateY(0);opacity:0}25%,75%{opacity:var(--a)}100%{transform:translateY(-46px);opacity:0}}
+@keyframes amc-bx{0%,4%{transform:none;animation-timing-function:linear}48%,100%{transform:translateX(200px)}}
+@keyframes amc-by{0%,4%{transform:none;animation-timing-function:cubic-bezier(.11,0,.5,0)}14%{transform:translateY(174px);animation-timing-function:cubic-bezier(.5,1,.89,1)}22%{transform:translateY(40px);animation-timing-function:cubic-bezier(.11,0,.5,0)}30%{transform:translateY(174px);animation-timing-function:cubic-bezier(.5,1,.89,1)}35.5%{transform:translateY(106px);animation-timing-function:cubic-bezier(.11,0,.5,0)}41%{transform:translateY(174px);animation-timing-function:cubic-bezier(.5,1,.89,1)}44.5%{transform:translateY(146px);animation-timing-function:cubic-bezier(.11,0,.5,0)}48%,51%{transform:translateY(174px);animation-timing-function:cubic-bezier(.2,.8,.3,1)}55%,100%{transform:translateY(106px)}}
+@keyframes amc-bs{0%{transform:scale(0)}3%{transform:scale(1.15)}5%{transform:none}12%{transform:scale(.9,1.12)}14%{transform:scale(1.34,.64)}16%{transform:scale(.88,1.14)}19%{transform:none}28.5%{transform:scale(.92,1.1)}30%{transform:scale(1.28,.7)}32%{transform:scale(.9,1.1)}34%{transform:none}40%{transform:scale(.95,1.06)}41%{transform:scale(1.22,.76)}43%{transform:none}48%{transform:scale(1.16,.84)}51%{transform:scale(1.36,.62)}53%{transform:scale(.8,1.28)}55.5%,100%{transform:none}}
+@keyframes amc-bo{0%{opacity:0}2%,55.5%{opacity:1}57.5%,100%{opacity:0}}
+@keyframes amc-ss{0%{opacity:0;transform:scale(.4)}4%{opacity:.25;transform:scale(.45);animation-timing-function:cubic-bezier(.11,0,.5,0)}14%{opacity:.95;transform:scale(1.15);animation-timing-function:cubic-bezier(.5,1,.89,1)}22%{opacity:.3;transform:scale(.5);animation-timing-function:cubic-bezier(.11,0,.5,0)}30%{opacity:.95;transform:scale(1.12);animation-timing-function:cubic-bezier(.5,1,.89,1)}35.5%{opacity:.55;transform:scale(.72);animation-timing-function:cubic-bezier(.11,0,.5,0)}41%{opacity:.95;transform:scale(1.1);animation-timing-function:cubic-bezier(.5,1,.89,1)}44.5%{opacity:.75;transform:scale(.88)}48%,51%{opacity:1;transform:scale(1.2)}56%,90%{opacity:.75;transform:scale(1.9)}95%,100%{opacity:0;transform:scale(1.4)}}
+@keyframes amc-mp{0%,4%{opacity:0}9%,55%{opacity:.5}64%,100%{opacity:0}}
+@keyframes amc-ip{0%,13.8%{opacity:0;transform:scale(.5)}14%{opacity:.9;transform:scale(.6)}21%,100%{opacity:0;transform:scale(2.3)}}
+@keyframes amc-pb{0%,55.5%{opacity:0;transform:scale(.45)}58%{opacity:1;transform:scale(1.12)}60.5%{transform:scale(.95)}63%,88%{opacity:1;transform:none}90.5%{opacity:1;transform:scale(1.06)}94%,100%{opacity:0;transform:scale(.3)}}
+@keyframes amc-pr{0%,57.5%{opacity:0;transform:none}58%{opacity:.85;transform:none}70%,100%{opacity:0;transform:scale(1.75)}}
+@keyframes amc-cv{0%,4%{stroke-dashoffset:100;opacity:1;animation-timing-function:cubic-bezier(.45,0,.55,1)}48%,90%{stroke-dashoffset:0;opacity:1}95%{stroke-dashoffset:0;opacity:0}96%,100%{stroke-dashoffset:100;opacity:0}}
+@keyframes amc-dx{0%,4%{transform:none;animation-timing-function:linear}48%,100%{transform:translateX(122px)}}
+@keyframes amc-dy{0%{opacity:0;transform:none}4%{opacity:1;transform:none;animation-timing-function:cubic-bezier(.49,0,.51,1)}48%,90%{opacity:1;transform:translateY(-112px)}94%,100%{opacity:0;transform:translateY(-112px)}}
+@keyframes amc-pf{0%{transform:scaleX(0)}100%{transform:scaleX(1)}}
+@keyframes amc-po{0%,94%{opacity:1}99%,100%{opacity:0}}
+@keyframes amc-ph{0%{transform:none;opacity:0}2%,95%{opacity:1}100%{transform:translateX(460px);opacity:0}}
+@media (prefers-reduced-motion:reduce){
+.amc-a *{animation:none!important}
+.amc-bo,.amc-ip,.amc-pr,.amc-dy{opacity:0}
+.amc-pb{opacity:1}.amc-mp{opacity:.5}.amc-cv{stroke-dashoffset:0}.amc-au{opacity:.9}.amc-du{opacity:.35}
+.amc-a .amc-pf{transform:scaleX(.57)}.amc-a .amc-ph{transform:translateX(262px)}
+.amc-a .amc-sw{transform:translateX(200px)}.amc-a .amc-ss{opacity:.75;transform:scale(1.9)}
+}
+</style>
+
+<circle class="amc-au" cx="400" cy="250" r="250" fill="url(#amc-au)"/>
+<circle class="amc-r1" cx="400" cy="250" r="196" fill="none" stroke="#fdba74" stroke-opacity=".2" stroke-width="2.4" stroke-dasharray="2 14" stroke-linecap="round"/>
+<g fill="#fff">
+<circle class="amc-du" style="--t:9s;--o:-2s;--a:.5" cx="150" cy="150" r="2.6"/>
+<circle class="amc-du" style="--t:11s;--o:-7s;--a:.35" cx="300" cy="444" r="2"/>
+<circle class="amc-du" style="--t:8s;--o:-4s;--a:.5" cx="690" cy="330" r="2.4"/>
+<circle class="amc-du" style="--t:12s;--o:-1s;--a:.4" cx="560" cy="120" r="2.8"/>
+<circle class="amc-du" style="--t:10s;--o:-6s;--a:.45" cx="96" cy="300" r="1.6"/>
+</g>
+
+<g class="amc-n" transform="translate(400 250) scale(1.12) translate(-377 -254)">
+<path d="M100 330H440" stroke="url(#amc-gd)" stroke-width="2"/>
+<g class="amc-bx amc-sw"><ellipse class="amc-ss" cx="150" cy="332" rx="34" ry="7" fill="url(#amc-sh)"/></g>
+<path class="amc-mp" d="M150 130Q172.7 130 195.5 304Q231.8 36 268.2 304Q293.2 168 318.2 304Q334.1 248 350 304" fill="none" stroke="#fdba74" stroke-width="3" stroke-dasharray=".1 11" stroke-linecap="round"/>
+<g fill="none" stroke="#fb923c" stroke-width="2.6">
+<ellipse class="amc-ip" cx="195.5" cy="330" rx="30" ry="7"/>
+<ellipse class="amc-ip" style="animation-delay:1.6s" cx="268.2" cy="330" rx="30" ry="7"/>
+<ellipse class="amc-ip" style="animation-delay:2.7s" cx="318.2" cy="330" rx="30" ry="7"/>
+<ellipse class="amc-ip" style="animation-delay:3.4s" cx="350" cy="330" rx="30" ry="7"/>
+</g>
+
+<g class="amc-fl" style="animation-delay:-1.5s">
+<rect x="452" y="140" width="170" height="160" rx="22" fill="url(#amc-pn)" stroke="#fff" stroke-opacity=".14" stroke-width="2"/>
+<path d="M476 164H598M476 220H598M476 276H598M476 164V276M537 164V276M598 164V276" stroke="#fff" stroke-opacity=".07" stroke-width="1.6" stroke-dasharray="3 6"/>
+<path d="M476 276H536M598 164H538" stroke="#fff" stroke-opacity=".32" stroke-width="2"/>
+<path class="amc-cv" pathLength="100" d="M476 276C536 276 538 164 598 164" fill="none" stroke="url(#amc-cv)" stroke-width="6" stroke-linecap="round"/>
+<circle cx="476" cy="276" r="5.5" fill="#fff" fill-opacity=".8"/><circle cx="598" cy="164" r="5.5" fill="#fff" fill-opacity=".8"/>
+<circle cx="536" cy="276" r="7" fill="#09080d" stroke="#fdba74" stroke-width="3"/><circle cx="538" cy="164" r="7" fill="#09080d" stroke="#a78bfa" stroke-width="3"/>
+<g class="amc-dx"><g class="amc-dy"><circle cx="476" cy="276" r="18" fill="url(#amc-gw)"/><circle cx="476" cy="276" r="7.5" fill="#fff"/></g></g>
+</g>
+
+<g style="--g:-9.79s" opacity=".14"><g class="amc-bx"><g class="amc-by"><g class="amc-bs"><circle class="amc-bo" cx="150" cy="130" r="26" fill="#4425fe"/></g></g></g></g>
+<g style="--g:-9.86s" opacity=".24"><g class="amc-bx"><g class="amc-by"><g class="amc-bs"><circle class="amc-bo" cx="150" cy="130" r="26" fill="#7c3aed"/></g></g></g></g>
+<g style="--g:-9.93s" opacity=".4"><g class="amc-bx"><g class="amc-by"><g class="amc-bs"><circle class="amc-bo" cx="150" cy="130" r="26" fill="#f97316"/></g></g></g></g>
+<g class="amc-bx"><g class="amc-by"><g class="amc-bs"><g class="amc-bo"><circle cx="150" cy="130" r="26" fill="url(#amc-bl)"/><path d="M137 117a17 17 0 0 1 14-6" fill="none" stroke="#fff" stroke-opacity=".75" stroke-width="4" stroke-linecap="round"/></g></g></g></g>
+
+<g class="amc-pb">
+<circle cx="350" cy="236" r="96" fill="url(#amc-gw)" opacity=".55"/>
+<circle cx="350" cy="236" r="62" fill="url(#amc-pg)"/>
+<circle cx="350" cy="236" r="60.5" fill="none" stroke="#fff" stroke-opacity=".35" stroke-width="2.4"/>
+<path d="M340 212L376 236L340 260z" fill="#fff" stroke="#fff" stroke-width="9" stroke-linejoin="round"/>
+</g>
+<circle class="amc-pr" cx="350" cy="236" r="62" fill="none" stroke="#fb923c" stroke-width="3"/>
+<circle class="amc-pr" style="animation-delay:1.3s" cx="350" cy="236" r="62" fill="none" stroke="#a78bfa" stroke-width="2.4"/>
+
+<rect x="170" y="376" width="460" height="10" rx="5" fill="#fff" fill-opacity=".08"/>
+<g fill="#09080d" stroke="#fff" stroke-opacity=".3" stroke-width="2">
+<path d="M188.4 372l9 9-9 9-9-9z"/><path d="M234.4 372l9 9-9 9-9-9z"/><path d="M308 372l9 9-9 9-9-9z"/><path d="M358.6 372l9 9-9 9-9-9z"/><path d="M390.8 372l9 9-9 9-9-9z"/><path d="M432.2 372l9 9-9 9-9-9z"/>
+</g>
+<g class="amc-po">
+<rect class="amc-pf" x="170" y="376" width="460" height="10" rx="5" fill="url(#amc-tr)"/>
+<g clip-path="url(#amc-ck)" fill="#fdba74" stroke="#fff" stroke-width="2">
+<path d="M188.4 372l9 9-9 9-9-9z"/><path d="M234.4 372l9 9-9 9-9-9z"/><path d="M308 372l9 9-9 9-9-9z"/><path d="M358.6 372l9 9-9 9-9-9z"/><path d="M390.8 372l9 9-9 9-9-9z"/><path d="M432.2 372l9 9-9 9-9-9z" fill="#c4b5fd"/>
+</g>
+</g>
+<g class="amc-ph">
+<circle cx="170" cy="381" r="16" fill="url(#amc-gw)"/>
+<path d="M170 356V406" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+<path d="M161 346h18v8l-9 8-9-8z" fill="#fb923c" stroke="#fff" stroke-width="2" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

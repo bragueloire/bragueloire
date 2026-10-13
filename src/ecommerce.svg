@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" class="ecc-a w-full h-full transform scale-[1.3] opacity-80 group-hover:opacity-100 group-hover:scale-[1.4] transition-all duration-500" role="img" aria-label="Un carrito abandonado vuelve a la bolsa de compra, se confirma el pedido y la curva de ventas sube">
+<defs>
+<linearGradient id="ecc-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f9a8d4"/><stop offset=".45" stop-color="#ec4899"/><stop offset="1" stop-color="#7c3aed"/></linearGradient>
+<linearGradient id="ecc-ln" gradientUnits="userSpaceOnUse" x1="170" y1="0" x2="630" y2="0"><stop offset="0" stop-color="#7c3aed"/><stop offset=".55" stop-color="#ec4899"/><stop offset="1" stop-color="#f9a8d4"/></linearGradient>
+<linearGradient id="ecc-ar" gradientUnits="userSpaceOnUse" x1="0" y1="176" x2="0" y2="390"><stop offset="0" stop-color="#ec4899" stop-opacity=".32"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></linearGradient>
+<linearGradient id="ecc-tr" gradientUnits="userSpaceOnUse" x1="590" y1="0" x2="340" y2="0"><stop offset="0" stop-color="#f9a8d4"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+<radialGradient id="ecc-au"><stop offset="0" stop-color="#ec4899" stop-opacity=".36"/><stop offset=".5" stop-color="#7c3aed" stop-opacity=".14"/><stop offset="1" stop-color="#4425fe" stop-opacity="0"/></radialGradient>
+<radialGradient id="ecc-gw"><stop offset="0" stop-color="#ec4899" stop-opacity=".6"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/></radialGradient>
+<radialGradient id="ecc-sh"><stop offset="0" stop-color="#7c3aed" stop-opacity=".5"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+</defs>
+<style>
+.ecc-a *{transform-box:fill-box;transform-origin:center}
+.ecc-a .ecc-bb{transform-origin:50% 100%}
+.ecc-au{opacity:.75;transition:opacity .5s;animation:ecc-br 6s ease-in-out infinite}
+.group:hover .ecc-au{opacity:1}
+.ecc-r1{animation:ecc-spin 48s linear infinite}
+.ecc-du{opacity:0;animation:ecc-du var(--t) linear var(--o) infinite}
+.ecc-fl{animation:ecc-fl 6s ease-in-out infinite}
+.ecc-ln{stroke-dasharray:100 101;animation:ecc-ln 12s infinite}
+.ecc-ar{animation:ecc-ar 12s infinite}
+.ecc-ed{animation:ecc-ed 12s infinite}
+.ecc-er{opacity:0;animation:ecc-er 12s cubic-bezier(.2,.7,.3,1) infinite}
+.ecc-cm{animation:ecc-cm 12s infinite}
+.ecc-ca{animation:ecc-ca 12s infinite}
+.ecc-it{animation:ecc-it 12s infinite backwards}
+.ecc-rc{opacity:0;animation:ecc-rc 12s infinite}
+.ecc-rr{opacity:0;animation:ecc-rr 12s cubic-bezier(.2,.7,.3,1) infinite}
+.ecc-tr{stroke-dasharray:4 9;opacity:0;animation:ecc-tr 12s infinite}
+.ecc-bb{animation:ecc-bb 12s infinite}
+.ecc-bw{animation:ecc-bw 12s infinite}
+.ecc-sp{opacity:0;animation:ecc-sp 12s cubic-bezier(.2,.7,.3,1) infinite}
+.ecc-tt{animation:ecc-tt 12s infinite}
+.ecc-tk{stroke-dasharray:30 30;animation:ecc-tk 12s infinite}
+@keyframes ecc-spin{to{transform:rotate(360deg)}}
+@keyframes ecc-br{0%,100%{transform:scale(.94)}50%{transform:scale(1.05)}}
+@keyframes ecc-fl{0%,100%{transform:translateY(3px)}50%{transform:translateY(-5px)}}
+@keyframes ecc-du{0%{transform:translateY(0);opacity:0}25%,75%{opacity:var(--a)}100%{transform:translateY(-46px);opacity:0}}
+@keyframes ecc-ln{0%{stroke-dashoffset:100;opacity:0}2%{stroke-dashoffset:100;opacity:1;animation-timing-function:cubic-bezier(.4,0,.3,1)}14%,57%{stroke-dashoffset:55;animation-timing-function:cubic-bezier(.4,0,.3,1)}70%,91%{stroke-dashoffset:0;opacity:1}97%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes ecc-ar{0%,57%{opacity:0}70%,91%{opacity:1}97%,100%{opacity:0}}
+@keyframes ecc-ed{0%,68%{opacity:0;transform:scale(.4)}71%{opacity:1;transform:scale(1.35)}73.5%,91%{opacity:1;transform:none}96%,100%{opacity:0;transform:scale(.4)}}
+@keyframes ecc-er{0%,70%{opacity:0;transform:scale(1)}71%{opacity:.85}83%,100%{opacity:0;transform:scale(2.6)}}
+@keyframes ecc-cm{0%{opacity:0;transform:translateX(70px)}6%,26%{opacity:1;transform:none;animation-timing-function:ease-in-out}32%,42%{transform:translateX(60px) rotate(7deg);animation-timing-function:cubic-bezier(.4,0,.6,1)}47%{transform:translate(-20px,-92px) scale(.78) rotate(-6deg)}52%{transform:translate(-150px,-86px) scale(.5) rotate(-12deg)}55.5%{opacity:1;transform:translate(-198px,-46px) scale(.26) rotate(-16deg)}56.5%,100%{opacity:0;transform:translate(-198px,-40px) scale(.2)}}
+@keyframes ecc-ca{0%,26%{opacity:1}32%,41%{opacity:.32}45%,100%{opacity:1}}
+@keyframes ecc-it{0%,8%{opacity:0;transform:translateY(-34px)}11%{opacity:1;transform:translateY(3px)}13%,100%{opacity:1;transform:none}}
+@keyframes ecc-rc{0%,33%{opacity:0;transform:scale(0)}36%{opacity:1;transform:scale(1.25)}38%,42%{opacity:1;transform:none}45%,100%{opacity:0;transform:scale(.6)}}
+@keyframes ecc-rr{0%,35%{opacity:0;transform:scale(1)}36%{opacity:.85}45%,100%{opacity:0;transform:scale(2.2)}}
+@keyframes ecc-tr{0%,40%{opacity:0;stroke-dashoffset:0}43%,52%{opacity:.85}58%,100%{opacity:0;stroke-dashoffset:-78}}
+@keyframes ecc-bb{0%,55%{transform:none}57%{transform:scale(1.08,.9)}59.5%{transform:scale(.96,1.05)}62%,100%{transform:none}}
+@keyframes ecc-bw{0%,54%{opacity:.35}57%{opacity:1}75%,100%{opacity:.5}}
+@keyframes ecc-sp{0%,55.5%{opacity:0;transform:none}57%{opacity:1}67%,100%{opacity:0;transform:translate(var(--x),var(--y))}}
+@keyframes ecc-tt{0%,57%{opacity:0;transform:translateY(20px) scale(.88)}60%{opacity:1;transform:translateY(-3px) scale(1.03);animation-timing-function:ease-out}62%,90%{opacity:1;transform:none}94%,100%{opacity:0;transform:translateY(-10px)}}
+@keyframes ecc-tk{0%,59%{stroke-dashoffset:30}63%,100%{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){
+.ecc-a *{animation:none!important}
+.ecc-er,.ecc-rc,.ecc-rr,.ecc-tr,.ecc-sp,.ecc-cm{opacity:0}.ecc-au{opacity:.9}.ecc-du{opacity:.35}
+}
+</style>
+
+<circle class="ecc-au" cx="400" cy="250" r="250" fill="url(#ecc-au)"/>
+<circle class="ecc-r1" cx="400" cy="250" r="196" fill="none" stroke="#f9a8d4" stroke-opacity=".18" stroke-width="2.4" stroke-dasharray="2 14" stroke-linecap="round"/>
+<g fill="#fff">
+<circle class="ecc-du" style="--t:9s;--o:-2s;--a:.5" cx="150" cy="140" r="2.6"/>
+<circle class="ecc-du" style="--t:11s;--o:-7s;--a:.35" cx="300" cy="440" r="2"/>
+<circle class="ecc-du" style="--t:8s;--o:-4s;--a:.5" cx="690" cy="250" r="2.4"/>
+<circle class="ecc-du" style="--t:12s;--o:-1s;--a:.4" cx="560" cy="452" r="2.8"/>
+<circle class="ecc-du" style="--t:10s;--o:-6s;--a:.45" cx="96" cy="300" r="1.6"/>
+</g>
+
+<g transform="translate(400 250) scale(1.1) translate(-400 -250)">
+<ellipse cx="400" cy="392" rx="260" ry="30" fill="url(#ecc-sh)"/>
+<path d="M170 200H630M170 260H630M170 320H630" stroke="#fff" stroke-opacity=".05" stroke-width="2"/>
+<path class="ecc-ar" d="M170 370L235 352 290 360 350 322 410 332 470 286 530 262 580 222 630 176V390H170z" fill="url(#ecc-ar)"/>
+<path class="ecc-ln" pathLength="100" d="M170 370L235 352 290 360 350 322 410 332 470 286 530 262 580 222 630 176" fill="none" stroke="url(#ecc-ln)" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle class="ecc-er" cx="630" cy="176" r="12" fill="none" stroke="#f9a8d4" stroke-width="3"/>
+<g class="ecc-ed"><circle cx="630" cy="176" r="12" fill="#ec4899" fill-opacity=".35"/><circle cx="630" cy="176" r="7" fill="#fff"/></g>
+
+<path class="ecc-tr" d="M584 262C566 150 400 140 338 226" fill="none" stroke="url(#ecc-tr)" stroke-width="4" stroke-linecap="round"/>
+
+<ellipse class="ecc-bw" cx="330" cy="300" rx="120" ry="100" fill="url(#ecc-gw)"/>
+<g class="ecc-fl"><g class="ecc-bb">
+<path d="M300 256v-30a30 30 0 0 1 60 0v30" fill="none" stroke="#f9a8d4" stroke-width="8" stroke-linecap="round"/>
+<path d="M268 240h124l10 120a16 16 0 0 1-16 17H274a16 16 0 0 1-16-17z" fill="url(#ecc-bg)"/>
+<path d="M268 240h124l1.4 16H266.6z" fill="#fff" fill-opacity=".18"/>
+<circle cx="300" cy="256" r="5.5" fill="#030303" fill-opacity=".4"/><circle cx="360" cy="256" r="5.5" fill="#030303" fill-opacity=".4"/>
+<path d="M300 256v-6M360 256v-6" stroke="#f9a8d4" stroke-width="8" stroke-linecap="round"/>
+<path d="M278 280l-3 64" stroke="#fff" stroke-opacity=".3" stroke-width="6" stroke-linecap="round"/>
+<path d="M330 330c-14-9-22-16-22-25 0-6 5-11 11-11 5 0 9 3 11 7 2-4 6-7 11-7 6 0 11 5 11 11 0 9-8 16-22 25z" fill="#fff" fill-opacity=".9"/>
+</g></g>
+<g fill="#fff">
+<circle class="ecc-sp" style="--x:-46px;--y:-40px" cx="318" cy="236" r="5"/>
+<circle class="ecc-sp" style="--x:40px;--y:-50px" cx="344" cy="232" r="4"/>
+<path class="ecc-sp" style="--x:-70px;--y:-6px" d="M290 248l4 6 6 4-6 4-4 6-4-6-6-4 6-4z" fill="#f9a8d4"/>
+<path class="ecc-sp" style="--x:66px;--y:-14px" d="M372 246l4 6 6 4-6 4-4 6-4-6-6-4 6-4z" fill="#c4b5fd"/>
+</g>
+
+<g transform="translate(-30 0)">
+<g class="ecc-cm"><g class="ecc-ca">
+<rect class="ecc-it" x="540" y="258" width="24" height="22" rx="5" fill="#f9a8d4"/>
+<rect class="ecc-it" style="animation-delay:.36s" x="569" y="250" width="22" height="30" rx="5" fill="#a78bfa"/>
+<path d="M531 280h78l-11 38h-59z" fill="#ec4899" fill-opacity=".32"/>
+<path d="M504 262h17l15 56h62l12-40H527" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="546" cy="335" r="7.5" fill="#fff"/><circle cx="590" cy="335" r="7.5" fill="#fff"/>
+</g></g>
+<circle class="ecc-rr" cx="636" cy="240" r="20" fill="none" stroke="#f9a8d4" stroke-width="3"/>
+<g class="ecc-rc">
+<circle cx="636" cy="240" r="20" fill="#ec4899" stroke="#0b0c18" stroke-width="3"/>
+<path d="M629 236.5a8 8 0 1 1 1.2 8.6M628 229.5v7h7" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+
+</g>
+<g class="ecc-tt">
+<rect x="392" y="102" width="200" height="58" rx="29" fill="#0d0e1c" stroke="#f9a8d4" stroke-opacity=".45" stroke-width="2"/>
+<circle cx="422" cy="131" r="17" fill="#34d399"/>
+<path class="ecc-tk" pathLength="30" d="M414 131.5l5.5 5.5 10-10.5" fill="none" stroke="#04150d" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="450" y="118" width="112" height="11" rx="5.5" fill="#fff" fill-opacity=".9"/>
+<rect x="450" y="136" width="70" height="8" rx="4" fill="#f9a8d4" fill-opacity=".6"/>
+</g>
+</g>
+</svg>
